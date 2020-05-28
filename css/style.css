@@ -1,0 +1,113 @@
+
+body {
+    width: 80%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.container {
+    padding-top: 50px;
+
+}
+
+.container-textinput {
+    width: 80%;
+    display: inline-block;
+    padding: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+}
+
+
+.container-button {
+    width: 10%;
+    display: inline-block;
+    padding: 20px;
+    background-color: yellowgreen;
+    color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.container-button:hover {
+    background-color: black;
+}
+
+
+.container-image {
+    display: block;
+    width: 20%;
+    float: left;
+    margin-right: 4%;
+    margin-bottom: 2%;
+}
+
+
+@media   (min-width: 960px ) and (max-width: 1024px){
+    .container-button {
+        width: 10%;
+        display: inline-block;
+        padding: 20px;
+        background-color: yellowgreen;
+        color: white;
+        border: 1px solid black;
+        border-radius: 2px;
+        font-weight: bold;
+    
+    }
+    
+    .container-button:hover {
+        background-color: black;
+    }
+    
+    }
+
+@media only screen and (max-width: 768px) {
+   
+    .container-button {
+        width: 87%;
+        display: inline-block;
+        padding: 20px;
+        background-color: yellowgreen;
+        color: white;
+        border: 1px solid black;
+        border-radius: 2px;
+        font-weight: bold;
+        margin-top: 10px;
+    
+    }
+    
+    .container-button:hover {
+        background-color: black;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+   
+
+    .container-button {
+        width: 91%;
+        display: inline-block;
+        padding: 20px;
+        background-color: yellowgreen;
+        color: white;
+        border: 1px solid black;
+        border-radius: 2px;
+        font-weight: bold;
+        margin-top: 10px;
+    
+    }
+    
+    .container-button:hover {
+        background-color: black;
+    }
+  }
